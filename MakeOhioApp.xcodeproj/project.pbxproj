@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81CD05BF29B411DA00CFABFA /* MakeOhioAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05BE29B411DA00CFABFA /* MakeOhioAppApp.swift */; };
+		81CD05C129B411DA00CFABFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05C029B411DA00CFABFA /* ContentView.swift */; };
+		81CD05C329B411DB00CFABFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CD05C229B411DB00CFABFA /* Assets.xcassets */; };
+		81CD05C629B411DB00CFABFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81CD05C529B411DB00CFABFA /* Preview Assets.xcassets */; };
+		81CD05D029B411DB00CFABFA /* MakeOhioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05CF29B411DB00CFABFA /* MakeOhioAppTests.swift */; };
+		81CD05DA29B411DB00CFABFA /* MakeOhioAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05D929B411DB00CFABFA /* MakeOhioAppUITests.swift */; };
+		81CD05DC29B411DB00CFABFA /* MakeOhioAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CD05DB29B411DB00CFABFA /* MakeOhioAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81CD05CC29B411DB00CFABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CD05B329B411DA00CFABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CD05BA29B411DA00CFABFA;
+			remoteInfo = MakeOhioApp;
+		};
+		81CD05D629B411DB00CFABFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81CD05B329B411DA00CFABFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81CD05BA29B411DA00CFABFA;
+			remoteInfo = MakeOhioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81CD05BB29B411DA00CFABFA /* MakeOhioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeOhioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CD05BE29B411DA00CFABFA /* MakeOhioAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOhioAppApp.swift; sourceTree = "<group>"; };
+		81CD05C029B411DA00CFABFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		81CD05C229B411DB00CFABFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81CD05C529B411DB00CFABFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81CD05CB29B411DB00CFABFA /* MakeOhioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeOhioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CD05CF29B411DB00CFABFA /* MakeOhioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOhioAppTests.swift; sourceTree = "<group>"; };
+		81CD05D529B411DB00CFABFA /* MakeOhioAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeOhioAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CD05D929B411DB00CFABFA /* MakeOhioAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOhioAppUITests.swift; sourceTree = "<group>"; };
+		81CD05DB29B411DB00CFABFA /* MakeOhioAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOhioAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81CD05B829B411DA00CFABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05C829B411DB00CFABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05D229B411DB00CFABFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81CD05B229B411DA00CFABFA = {
+			isa = PBXGroup;
+			children = (
+				81CD05BD29B411DA00CFABFA /* MakeOhioApp */,
+				81CD05CE29B411DB00CFABFA /* MakeOhioAppTests */,
+				81CD05D829B411DB00CFABFA /* MakeOhioAppUITests */,
+				81CD05BC29B411DA00CFABFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81CD05BC29B411DA00CFABFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CD05BB29B411DA00CFABFA /* MakeOhioApp.app */,
+				81CD05CB29B411DB00CFABFA /* MakeOhioAppTests.xctest */,
+				81CD05D529B411DB00CFABFA /* MakeOhioAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81CD05BD29B411DA00CFABFA /* MakeOhioApp */ = {
+			isa = PBXGroup;
+			children = (
+				81CD05BE29B411DA00CFABFA /* MakeOhioAppApp.swift */,
+				81CD05C029B411DA00CFABFA /* ContentView.swift */,
+				81CD05C229B411DB00CFABFA /* Assets.xcassets */,
+				81CD05C429B411DB00CFABFA /* Preview Content */,
+			);
+			path = MakeOhioApp;
+			sourceTree = "<group>";
+		};
+		81CD05C429B411DB00CFABFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				81CD05C529B411DB00CFABFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81CD05CE29B411DB00CFABFA /* MakeOhioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				81CD05CF29B411DB00CFABFA /* MakeOhioAppTests.swift */,
+			);
+			path = MakeOhioAppTests;
+			sourceTree = "<group>";
+		};
+		81CD05D829B411DB00CFABFA /* MakeOhioAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81CD05D929B411DB00CFABFA /* MakeOhioAppUITests.swift */,
+				81CD05DB29B411DB00CFABFA /* MakeOhioAppUITestsLaunchTests.swift */,
+			);
+			path = MakeOhioAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81CD05BA29B411DA00CFABFA /* MakeOhioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CD05DF29B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioApp" */;
+			buildPhases = (
+				81CD05B729B411DA00CFABFA /* Sources */,
+				81CD05B829B411DA00CFABFA /* Frameworks */,
+				81CD05B929B411DA00CFABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeOhioApp;
+			productName = MakeOhioApp;
+			productReference = 81CD05BB29B411DA00CFABFA /* MakeOhioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81CD05CA29B411DB00CFABFA /* MakeOhioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CD05E229B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioAppTests" */;
+			buildPhases = (
+				81CD05C729B411DB00CFABFA /* Sources */,
+				81CD05C829B411DB00CFABFA /* Frameworks */,
+				81CD05C929B411DB00CFABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CD05CD29B411DB00CFABFA /* PBXTargetDependency */,
+			);
+			name = MakeOhioAppTests;
+			productName = MakeOhioAppTests;
+			productReference = 81CD05CB29B411DB00CFABFA /* MakeOhioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81CD05D429B411DB00CFABFA /* MakeOhioAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81CD05E529B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioAppUITests" */;
+			buildPhases = (
+				81CD05D129B411DB00CFABFA /* Sources */,
+				81CD05D229B411DB00CFABFA /* Frameworks */,
+				81CD05D329B411DB00CFABFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81CD05D729B411DB00CFABFA /* PBXTargetDependency */,
+			);
+			name = MakeOhioAppUITests;
+			productName = MakeOhioAppUITests;
+			productReference = 81CD05D529B411DB00CFABFA /* MakeOhioAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81CD05B329B411DA00CFABFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					81CD05BA29B411DA00CFABFA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					81CD05CA29B411DB00CFABFA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81CD05BA29B411DA00CFABFA;
+					};
+					81CD05D429B411DB00CFABFA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 81CD05BA29B411DA00CFABFA;
+					};
+				};
+			};
+			buildConfigurationList = 81CD05B629B411DA00CFABFA /* Build configuration list for PBXProject "MakeOhioApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81CD05B229B411DA00CFABFA;
+			productRefGroup = 81CD05BC29B411DA00CFABFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81CD05BA29B411DA00CFABFA /* MakeOhioApp */,
+				81CD05CA29B411DB00CFABFA /* MakeOhioAppTests */,
+				81CD05D429B411DB00CFABFA /* MakeOhioAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81CD05B929B411DA00CFABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CD05C629B411DB00CFABFA /* Preview Assets.xcassets in Resources */,
+				81CD05C329B411DB00CFABFA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05C929B411DB00CFABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05D329B411DB00CFABFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81CD05B729B411DA00CFABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CD05C129B411DA00CFABFA /* ContentView.swift in Sources */,
+				81CD05BF29B411DA00CFABFA /* MakeOhioAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05C729B411DB00CFABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CD05D029B411DB00CFABFA /* MakeOhioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CD05D129B411DB00CFABFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81CD05DA29B411DB00CFABFA /* MakeOhioAppUITests.swift in Sources */,
+				81CD05DC29B411DB00CFABFA /* MakeOhioAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81CD05CD29B411DB00CFABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CD05BA29B411DA00CFABFA /* MakeOhioApp */;
+			targetProxy = 81CD05CC29B411DB00CFABFA /* PBXContainerItemProxy */;
+		};
+		81CD05D729B411DB00CFABFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81CD05BA29B411DA00CFABFA /* MakeOhioApp */;
+			targetProxy = 81CD05D629B411DB00CFABFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		81CD05DD29B411DB00CFABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81CD05DE29B411DB00CFABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81CD05E029B411DB00CFABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakeOhioApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81CD05E129B411DB00CFABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MakeOhioApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		81CD05E329B411DB00CFABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeOhioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeOhioApp";
+			};
+			name = Debug;
+		};
+		81CD05E429B411DB00CFABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakeOhioApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MakeOhioApp";
+			};
+			name = Release;
+		};
+		81CD05E629B411DB00CFABFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeOhioApp;
+			};
+			name = Debug;
+		};
+		81CD05E729B411DB00CFABFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackathon.MakeOhioAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MakeOhioApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81CD05B629B411DA00CFABFA /* Build configuration list for PBXProject "MakeOhioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CD05DD29B411DB00CFABFA /* Debug */,
+				81CD05DE29B411DB00CFABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CD05DF29B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CD05E029B411DB00CFABFA /* Debug */,
+				81CD05E129B411DB00CFABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CD05E229B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CD05E329B411DB00CFABFA /* Debug */,
+				81CD05E429B411DB00CFABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81CD05E529B411DB00CFABFA /* Build configuration list for PBXNativeTarget "MakeOhioAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CD05E629B411DB00CFABFA /* Debug */,
+				81CD05E729B411DB00CFABFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81CD05B329B411DA00CFABFA /* Project object */;
+}
