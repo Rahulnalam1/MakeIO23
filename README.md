@@ -1,4 +1,4 @@
-# MakeOI23
+# MakeIO23
 
 Created a project for Ohio State's yearly hardware focused Hackathon called MakeOhio. This team consists of Raagul, 
 Rahul, Marty, and Pranav. All second year CSE students at OSU. 
